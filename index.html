@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar-inverse my_nav_bar">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Kenneth Gonzalez</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+        <li><a href="#school name">SCHOOL NAME</a></li>
+         <li><a href="#campus life">CAMPUS LIFE</a></li>
+         <li><a href="#school achievements">SCHOOL ACHIEVEMENTS</a></li>
+         <li><a href="#whats new">WHATS NEW</a></li>
+         <li><a href="#our alumni">OUR ALUMNI</a></li>
+         <li><a href="#contact us">CONTACT US</a></li>
+         <li><a href="#administrativeteam">ADMINISTRATIVE TEAM</a></li>
+        </ul>
+    </div>
+         </nav>
+<div class="announcement">
+    <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    </marquee>
+    </div>
+
+     <section id="school name">
+        <h1>
+            <span id="name">John Adams Middle School</span>
+        </h1>
+          <img src="JAMS.jpeg">
+    </section>
+
+    <section id="campus life">
+        <div clas="container">
+            <div class="page-header" id="campus_life">
+            <h2 class="text-capitalized">Campus Life</h2>
+                
+                <div class="row">
+                    <div class="travel_mainDiv">
+                            <img class="img-responsive" src=auditorium.jpeg>
+                                 <h4 class="text-capitlize"><kbd>School Auditorium</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was established in 1923</h5>
+                        <p class="text-muted text-left">The auditoriam is much bigger than seen in the picture. Many plays hapen here and groups like the band group practice here. It is the biggest auditorium I have seen/been to ever.</p>
+                    </div>
+
+                     <div class="travel_mainDiv">
+                            <img class="img-responsive" src=Outside.jpeg>
+                                 <h4 class="text-capitlize"><kbd>Outside Area</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was established in 1925</h5>
+                        <p class="text-muted text-left">This outside area of John Adams Middle School is the main place where students hang out for nutrition and lunch. This picture only shows a fraction of the area but I could not find any other pictures.</p>
+                </div>
+                    
+                     <div class="travel_mainDiv">
+                            <img class="img-responsive" src=PE%20area.jpeg>
+                                 <h4 class="text-capitlize"><kbd>School PE Area</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was established in 1927</h5>
+                        <p class="text-muted text-left">The PE area is the place where students go for PE class. There are tunnels that lead to the PE area. Students can also go here during nutrition and lunch to play with the sports equipment.</p>
+                </div>
+            </div>
+
+        </div>
+        <iframe width="916" height="515" src="https://www.youtube.com/embed/GFIuPRqUz1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    <section>
+    <div class="page-header" id="school achievements">
+        <h2 class="text-capitalize">School achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1"> JAMS Football Turkey Bowl <i class="fa fa-sort-desc"></i>
+        </div>
+        
+        <div id="school_achievement1" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+        <img src="football.jpeg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">Won first place in the JAMS Football Turkey Bowl</h5>
+                <p>This event happens every November and during the event teo teams compete to win, the students vs the staff.</p>
+            </div>
+        </div>
+        
+    
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2"> JAMS Pi Day <i class="fa fa-sort-desc"></i>
+        </div>
+        
+        <div id="school_achievement2" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+        <img src="pi.jpeg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">Won third place in JAMS Pi Day</h5>
+                <p>This event happens every March and during this event students compete to see who can remember the most digits of pi.</p>
+            </div>
+        </div>
+        
+    </section>
+
+        <section id="whats new">
+        <h2 class="text-capitalize">What's New</h2>
+    <ul class="list-group">
+        
+        <li class="list-group-item list-group-item-success" col-lg-12 col-md-12 col-sm-12 col-xs-12 whatsnew_li>
+        <h4>New School Librarian</h4>
+            <img src="library.jpeg" id="library" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" id="p5">
+            
+                The new school librarian's name is Navarro Fernando.
+            </p>
+        </li>
+        </ul>
+    </section>
+    
+     <section id="our alumni">
+        <h2 class="text-capitalize">Our Alumni</h2>
+         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 bok" id="alumniList" data-toggle="modal" data-target="#school_alumni1">
+         <img src="auditorium.jpeg" class="img-responsive">
+             <hr>
+             <p class="text-primary">I could not find any images of our school alumni</p>
+         </div>
+         <div class="modal fade" id="school_alumni1">
+         <div class="modal-dialog">
+             <div class="modal-content">
+             <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <h4 class="modal-title">I could not find any images of our shcool alumni</h4>
+                 </div>
+                 <div class="modal-body">
+                 <img src="auditorium.jpeg" class="img-responsive img_modal">
+                     <p class="p_modal">Image of the students from 2013
+                     <a href="https://en.wikipedia.org/wiki/Aaditya_Thackeray"><b>To Know more</b></a> 
+                         </p>
+                 </div>
+             </div>
+             </div>
+         </div>
+         <div id="footer"></div>
+    </section>
+    
+<section id="contact us">
+    <div class="container">
+    <div class="page-header col-lg 12 col-md-12 col-sm-12 col-xs-12" id="contactsUs">
+        <h2 class="text-capitalize">Contact Us</h2>
+        </div>
+        <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105823.79223033477!2d-118.44097600281913!3d34.01837761101345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7dee9cbdead%3A0x564e2d0daef47227!2sJohn%20Adams%20Middle%20School!5e0!3m2!1sen!2sus!4v1617832358597!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+            <img src="principal.jpeg" id="principal" class="img-circle">
+        <h3>Principal Name:</h3>
+            <h4>Mr Arreguin</h4>
+        </div>
+    </div>
+    
+    
+    </section>
+    <section id="administrativeteam">
+    <h1>Administrative Team</h1>
+    <li>Bustos, Martha (Staff)</li>
+    <li>Puente, Patricia (Staff)</li>
+    <li>Navarro, Fernando (Sys Admin)</li>
+    <li>Cruz, Hilda (Assistant Principal)</li>
+    <li>Correa, Dr. Wendy (Assistant Principal)</li>
+    </section>
+
+</body>
+
+</html>
